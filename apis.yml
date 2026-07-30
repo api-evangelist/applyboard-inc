@@ -1,19 +1,45 @@
 aid: applyboard-inc
 name: ApplyBoard Inc.
-description: 'ApplyBoard Inc. is a company surfaced as a portfolio company of index-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: business-applications. This profile
-  is a lead awaiting the enrichment pipeline.'
+description: 'ApplyBoard Inc. is a Kitchener-Waterloo, Canada-based education technology
+  company that operates one of the world''s largest online platforms for international
+  student recruitment. Its marketplace connects prospective students and recruitment
+  partners with more than 1,500 educational institutions across Australia, Canada,
+  Germany, Ireland, the United Kingdom, and the United States, and reports having helped
+  over 1.5 million students apply to 150,000+ programs. Beyond the core application
+  platform, ApplyBoard offers "360 Solutions" spanning language-test vouchers, financial
+  services, and student loans, along with ApplyProof (a standalone document-verification
+  service) and ApplyBoard Test Solutions. ApplyBoard does not currently publish a public
+  developer API or developer portal; this profile captures its public web, security,
+  and legal surface for the API Evangelist network.'
 url: https://raw.githubusercontent.com/api-evangelist/applyboard-inc/refs/heads/main/apis.yml
 x-type: company
 x-source: index-ventures-portfolio
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.applyboard.com/wp-content/uploads/2025/04/Home.png
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
 - Business Applications
+- Education
+- EdTech
+- International Education
+- Student Recruitment
+- Marketplace
+- Canada
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +49,22 @@ maintainers:
 common:
 - type: Website
   url: https://www.applyboard.com/
+- type: Blog
+  url: https://www.applyboard.com/blog
+- type: Support
+  url: https://assist.applyboard.com/hc/en-us
+- type: SignUp
+  url: https://www.applyboard.com/register
+- type: PrivacyPolicy
+  url: https://www.applyboard.com/privacy-and-cookie-policy
+- type: TermsOfService
+  url: https://www.applyboard.com/terms-and-conditions
+- type: GitHubOrganization
+  url: https://github.com/ApplyBoard
+- type: DomainSecurity
+  url: security/applyboard-inc-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
